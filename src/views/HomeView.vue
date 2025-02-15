@@ -10,7 +10,7 @@
 </script>
 
 <template>
-    <Video />
+    <Video videoName="lofi"/>
   <div class="h-screen flex items-center justify-center absolute">
     <div class="mb-130 ml-10 justify-center w-48">
       <Time />

@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { defineProps, reactive, ref } from 'vue';
-  import Buttons from "@/buttons/Buttons.vue";
+  import Buttons from "@/components/Buttons.vue";
 
   const hours = ref(0)
   const minutes = ref(0)
@@ -46,7 +46,7 @@
 
 <template>
 
-  <div class="w-56 flex grid-cols-2 gap-2">
+  <div class="w-56 flex grid-cols-2 gap-2 mt-20">
     <Buttons buttonColor="black" name="Start" @click="startCountdown" />
     <Buttons buttonColor="red" name="Stop" @click="stopCountdown" />
   </div>
