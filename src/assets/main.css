@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+#app {
+
+}
+
+
+@media (min-width: 1024px) {
+    body {
+        background-color: black;
+    }
+
+    #app {
+        background-color: black;
+
+    }
+}
+
